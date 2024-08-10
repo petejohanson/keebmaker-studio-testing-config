@@ -7,4 +7,5 @@ include:
     artifact-name: corne_left_nano_v2_studio
   - board: nice_nano_v2
     shield: corne_right
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
     artifact-name: corne_right_nano_v2_studio
